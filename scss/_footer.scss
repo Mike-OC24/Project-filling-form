@@ -1,0 +1,36 @@
+.footer__inner {
+   min-height: 81px;
+   border-top: 1px solid $border; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 24px; 
+}
+.button__submit {
+   padding: 5px 24px;
+   background: $button-color;
+   border-radius: 2px;
+   color: $button-text;
+   line-height: 22px;
+   margin-right: 24px;
+      &:hover {
+         background: $hover;
+      }
+      &:active {
+         background: $active;
+      }
+}
+.button__cancel {
+   background-color: transparent;
+   line-height: 22px;
+      &:hover {
+         color: $hover;
+      }
+      &:active {
+         color: $active;
+      }
+}
+.footer__inner-message {
+   color: $message;
+   line-height: 22px;
+}

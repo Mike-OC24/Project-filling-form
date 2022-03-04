@@ -1,0 +1,26 @@
+body {
+   font-family: "Open Sans", sans-serif;
+   font-size: 14px;
+   color: $general-color;
+   line-height: 20px; 
+}
+textarea {
+   resize: none;
+}   
+.form {
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   width: 768px;
+   height: 652px;
+   margin: 0px auto;
+   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.16);
+}
+footer {
+   margin-top: auto;
+}
